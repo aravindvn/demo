@@ -10,6 +10,8 @@ public class WelcomeController {
 
     private String auth ="This is auth changes";
 
+    private String stash2 ="This is stash 2 ";
+
 
     @GetMapping("/welcome")
     public String welcome()
