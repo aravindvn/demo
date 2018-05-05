@@ -10,6 +10,9 @@ public class WelcomeController {
 
     private String SDN = "new SDN";
 
+    private String auth ="This is auth changes";
+
+
 
     @GetMapping("/welcome")
     public String welcome()
