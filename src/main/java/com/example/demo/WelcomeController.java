@@ -8,7 +8,7 @@ public class WelcomeController {
 
     private String message = "hello my  world ";
 
-    private String SDN = "new SDN";ls -la
+    private String SDN = "new SDN";ls -lalcome
 
 
     @GetMapping("/welcome")
