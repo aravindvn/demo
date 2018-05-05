@@ -8,6 +8,8 @@ public class WelcomeController {
 
     private String message = "hello my  world ";
 
+    private String auth ="This is auth changes";
+
 
     @GetMapping("/welcome")
     public String welcome()
