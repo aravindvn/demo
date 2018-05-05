@@ -16,7 +16,9 @@ public class WelcomeController {
 
 
     private String development ="This is a string added at local to merge to remote";
-    
+
+    private String developmentPush  = "This will be my second push";
+
     @GetMapping("/welcome")
     public String welcome()
 
